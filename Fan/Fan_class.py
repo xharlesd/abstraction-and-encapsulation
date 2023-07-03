@@ -9,12 +9,17 @@ class Fan:
     
     # get fan speed
     def get_speed(self):
-        if self.__speed == 1: self.__speed == "Slow"
-        elif self.__speed == 2: self.__speed == "Medium"
-        elif self.__speed == 3: self.__speed == "Fast"
+        if self.__speed == 1: 
+            self.__speed == "Slow"
+        elif self.__speed == 2: 
+            self.__speed == "Medium"
+        elif self.__speed == 3: 
+            self.__speed == "Fast"
 
     # get fan status
-        
+    def get_status(self):
+        return self.__status == False
+
     # get fan radius
 
     # get fan color
