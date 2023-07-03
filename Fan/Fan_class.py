@@ -25,8 +25,10 @@ class Fan:
         return self.__radius
 
     # get fan color
-
+    def get_color(self):
+        return self.__color
     
+
     # set fan speed
 
     # set fan status
