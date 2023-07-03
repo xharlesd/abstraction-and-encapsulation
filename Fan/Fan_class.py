@@ -1,5 +1,8 @@
 class Fan:
     # create constructor
+    def __init__(self, speed = "SLOW", radius = 5, color = "Blue", status = False):
+        # instance variables
+
     # create getters
         # get fan speed
         # get fan status
