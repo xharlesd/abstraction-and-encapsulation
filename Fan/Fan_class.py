@@ -47,6 +47,4 @@ class Fan:
 
     # set fan color
     def set_color(self):
-        return self.__color
-    
-        ""
+        self.__color = input('Enter fan color: ')
