@@ -46,3 +46,9 @@ class Fan:
     # set fan color
     def set_color(self, color):
         self.__color = str(color)
+
+    def display(self):
+        print("Speed:", self.__speed)
+        print("Radius:", self.__radius)
+        print("Color:", self.__color)
+        print("Status:", self.__status)

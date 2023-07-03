@@ -10,3 +10,6 @@ def fan_test():
     fan1.set_radius(10)
     fan1.set_color('Yellow')
     fan1.set_status(True)
+    
+
+fan_test()
