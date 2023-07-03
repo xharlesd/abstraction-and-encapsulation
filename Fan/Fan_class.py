@@ -21,6 +21,8 @@ class Fan:
         return self.__status == False
 
     # get fan radius
+    def get_radius(self):
+        return self.__radius
 
     # get fan color
 
