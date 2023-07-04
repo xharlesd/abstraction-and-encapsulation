@@ -50,7 +50,7 @@ class Fan:
         self.__color = str(color)
 
     def display_fan_properties(self):
-        print(Style.BRIGHT + Fore.CYAN + "Speed      :  " + '\033[0m', Fore.YELLOW, self.__speed)
-        print(Style.BRIGHT + Fore.CYAN + "Radius     :  " + '\033[0m', Fore.YELLOW, self.__radius)
-        print(Style.BRIGHT + Fore.CYAN + "Color      :  " + '\033[0m', Fore.YELLOW, self.__color)
-        print(Style.BRIGHT + Fore.CYAN + "Status(ON) :  " + '\033[0m', Fore.YELLOW, self.__status, '\033[0m')
+        print(Style.BRIGHT + Fore.CYAN + "  Speed      : " + '\033[0m', Fore.YELLOW, self.__speed)
+        print(Style.BRIGHT + Fore.CYAN + "  Radius     : " + '\033[0m', Fore.YELLOW, self.__radius)
+        print(Style.BRIGHT + Fore.CYAN + "  Color      : " + '\033[0m', Fore.YELLOW, self.__color)
+        print(Style.BRIGHT + Fore.CYAN + "  Status(ON) : " + '\033[0m', Fore.YELLOW, self.__status, '\033[0m', "\n")
