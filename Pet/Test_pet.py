@@ -1,4 +1,5 @@
 # import pet class
+from Pet_class import Pet
 
 # create Pet object
 
