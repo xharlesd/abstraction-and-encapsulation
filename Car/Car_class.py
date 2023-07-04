@@ -1,3 +1,5 @@
+from colorama import Fore, Style
+
 # Create Car class
 class Car:
     # constructor
@@ -19,4 +21,4 @@ class Car:
         return self.__speed
     
     def display_speed(self):
-        print("Speed: ", self.__speed, "kph")
+        print(Style.BRIGHT + Fore.MAGENTA + " Speed:" + '\033[0m', Fore.GREEN, self.__speed, "kph")
