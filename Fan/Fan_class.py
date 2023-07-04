@@ -22,7 +22,7 @@ class Fan:
     def get_status(self):
         return self.__status
     
-    # get fan radius
+    # get fan radiusS
     def get_radius(self):
         return self.__radius
     
@@ -33,7 +33,7 @@ class Fan:
     # mutator(setters)
     # set fan speed
     def set_speed(self, speed):
-        self.__speed = int(speed)
+        self.__speed = speed
 
     # set fan status
     def set_status(self, status):
