@@ -35,7 +35,7 @@ class Pet:
         return self.__age
     
     def display(self):
-        print("---PET INFO---")
+        print("-------PET INFO------")
         print("Pet's Name  : ", self.__name)
         print("Animal Type : ", self.__animal_type)
         print("Pet's Age   : ", self.__age)
