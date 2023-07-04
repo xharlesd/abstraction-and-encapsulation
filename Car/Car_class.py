@@ -17,3 +17,6 @@ class Car:
     # get current speed
     def current_speed(self):
         return self.__speed
+    
+    def display_speed(self):
+        print("Current Speed: ", self.__speed)
