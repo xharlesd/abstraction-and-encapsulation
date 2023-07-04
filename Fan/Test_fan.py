@@ -1,3 +1,6 @@
+# Bernido, Charles David P. | BSCPE 1-5
+# Object Oriented Programming | Assignment 9 - Problem 1
+
 from Fan_class import Fan
 
 def fan_test():
