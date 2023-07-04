@@ -1,3 +1,5 @@
+from colorama import Fore, Style
+
 # create pet class
 class Pet:
     # constructor
@@ -35,8 +37,8 @@ class Pet:
         return self.__age
     
     def display(self):
-        print("\n-------PET INFO--------")
-        print(" Pet's Name  : ", self.__name)
-        print(" Animal Type : ", self.__animal_type)
-        print(" Pet's Age   : ", self.__age)
-        print("-"*23)
+        print(Style.BRIGHT + Fore.MAGENTA + "\n" + "-"*24 + "\n        PET INFO\n" + "-"*24 + '\033[0m')
+        print(Style.BRIGHT + Fore.YELLOW + "  Pet's Name  :" + '\033[0m', Style.BRIGHT + Fore.CYAN, self.__name)
+        print(Fore.YELLOW + "  Animal Type :" + '\033[0m', Style.BRIGHT + Fore.CYAN, self.__animal_type)
+        print(Fore.YELLOW + "  Pet's Age   :" + '\033[0m', Style.BRIGHT + Fore.CYAN, self.__age)
+        print(Style.BRIGHT + Fore.MAGENTA +"-"*24 + '\033[0m' + "\n")
