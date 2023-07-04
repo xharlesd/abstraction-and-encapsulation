@@ -19,4 +19,4 @@ class Car:
         return self.__speed
     
     def display_speed(self):
-        print("Current Speed: ", self.__speed)
+        print("Speed: ", self.__speed, "kph")
