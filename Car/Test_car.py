@@ -19,3 +19,5 @@ print(Style.BRIGHT + Fore.YELLOW + "\n" + "-"*16 + "\n     BRAKE\n" + "-"*16 + '
 for i in range (5):
     My_car.brake()
     My_car.display_speed()
+
+print("\n")
